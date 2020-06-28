@@ -1,0 +1,25 @@
+{
+  "name": "easy-swoole/hyperf-database",
+  "require": {
+    "hyperf/database": "^1.1",
+    "nikic/php-parser": "^4.5",
+    "easyswoole/pool": "^1.0",
+    "coding-cat/common-helper": "^0.9",
+    "easyswoole/easyswoole": "3.x"
+  },
+  "require-dev": {
+    "easyswoole/swoole-ide-helper": "^1.3",
+    "roave/better-reflection": "^4.3",
+    "doctrine/dbal": "^2.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "EasySwoole\\Hyperf\\Database\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EasySwoole\\Hyperf\\Database\\Example\\": "example/"
+    }
+  }
+}
